@@ -32,7 +32,7 @@ def go_to_corner():
       move()
     turn_right()
     while front_is_clear():
-      move()  
+      move()
 
 def turn_around():
   turn_left()
@@ -43,6 +43,5 @@ def turn_right():
   turn_left()
   turn_left()
 
-  if __name__ == "__main__":
-    run_karel_program("triple_karel")
- 
+if __name__ == "__main__":
+  run_karel_program("triple_karel")

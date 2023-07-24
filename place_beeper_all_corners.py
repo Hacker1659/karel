@@ -1,4 +1,5 @@
-from stanfordkarel import *
+
+
 def main():
   place_beepers_everywhere()
 
